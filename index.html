@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador Alura Oracle</title>
+    <script
+    defer
+    src="https://app.embed.im/snow.js"></script>
+    
+</head>
+<body>
+    <header>
+       <img src="imagenes/Vector.png" class="logo" alt="logo">
+       <h1 id="title">Encriptador de mensajes</h1>
+      </header>             
+            
+    <main>
+      <section class="seccion-uno">
+               
+        <textarea class="textarea"   placeholder="Ingrese el texto aquí"></textarea>
+        
+        <div class="informacion">
+          <p>🛈 Solo letras minúsculas y sin acento</p>
+        </div>
+        
+        <div class="botones">
+            <button class="boton-encriptar" onclick= "botonEncriptar()" >Encriptar</button>
+            <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+        </div>  
+      </section>  
+
+      <section class="seccion-dos">
+
+        <img src="imagenes/muneco.png" alt="ilustracion" id="imagenPersonita">
+       
+        <h2 id="textoDerecha">No se encontró ningún mensaje</h2>
+ 
+         <textarea class="textarea-traducida" cols="30" rows="10">Escribe el texto que deseas Encriptar o Desencriptar</textarea>
+ 
+         
+         <button id="boton-copiar" type="button" name="button" onclick="copiar()">Copiar</button>
+         
+          
+       </section>
+    
+    </main>
+
+    <footer>
+      <p id="creadora"> Yessica Pineda <br> Desarrolladora </p>
+    </footer>  
+
+    <script src="script.js"></script>
+     
+ </body>
+  
+</html>
